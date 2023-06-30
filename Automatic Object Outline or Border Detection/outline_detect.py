@@ -2,7 +2,7 @@ import cv2
 import rembg
 
 # Load input image
-input_image = cv2.imread('TEST IMAGES/1.jpg')
+input_image = cv2.imread('1.jpg')
 
 while True:
     input_image = cv2.resize(input_image, (960, 540))
